@@ -60,13 +60,3 @@ col3.metric("Lowest", f"{df.iloc[:, 0].min():.1f} °C")
 
 st.line_chart(df)
 st.caption("Data: Open-Meteo.com (free for non-commercial use).")
-```[cite: 7, 8]
-
-#### **3. 날씨 앱 배포하기**[cite: 8]
-1. `weather_map.py` 파일도 STEP 5에서 만든 같은 GitHub 저장소에 업로드합니다[cite: 8].
-2. Streamlit Cloud에서 다시 **Create app**을 누르고, **Main file path**만 `weather_map.py`로 변경하여 새로 배포합니다 (하나의 GitHub 저장소로 여러 앱 실행 가능)[cite: 8].
-
----
-
-**다음 단계 안내:**
-여기까지 완료하시면 API 키를 안전하게 관리하고 Streamlit Secrets에 저장하는 **STEP 7**으로 넘어가실 수 있습니다[cite: 8]. 다음 단계 설명이 필요하시면 말씀해 주세요!
