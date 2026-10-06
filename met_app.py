@@ -62,4 +62,3 @@ if query.strip():
         st.error("Could not reach the museum's service right now. Please try again in a minute.")
 
 st.caption("Data: The Metropolitan Museum of Art Collection API (Open Access, CC0).")
-```[cite: 5, 6]
